@@ -1,0 +1,23 @@
+{
+  "name": "podmark",
+  "version": "0.1.0",
+  "description": "A browser extension that syncs bookmarks to a Solid Pod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "esbuild *.ts --bundle --outdir=dist --watch;"
+  },
+  "author": "Michiel Van den Berghe",
+  "license": "MIT",
+  "dependencies": {
+    "@inrupt/solid-client": "^1.23.3",
+    "@inrupt/solid-client-authn-browser": "^1.12.3",
+    "@inrupt/vocab-common-rdf": "^1.0.5",
+    "buffer": "^6.0.3",
+    "chrome-types": "^0.1.153",
+    "esbuild": "0.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "string_decoder": "^1.3.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
+    "client_id": "https://podmark.michielvdb.be/clientid.jsonld",
+    "redirect_uris": ["https://jodhfbnfnogohfdkccjlfkfapdhnmdnf.chromiumapp.org/index.html"],
+    "client_name": "Podmark",
+    "client_uri": "https://podmark.michielvdb.be/logo.png",
+    "logo_uri": "https://podmark.michielvdb.be/logo.png",
+    "tos_uri": "https://podmark.michielvdb.be/terms.html",
+    "policy_uri": "https://podmark.michielvdb.be/policy.html",
+    "contacts": ["me@michielvdb.be"],
+    "scope" : "openid offline_access webid",
+    "grant_types" : ["refresh_token","authorization_code"]
+}
