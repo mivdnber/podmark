@@ -1,7 +1,7 @@
 {
     "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
     "client_id": "https://podmark.michielvdb.be/clientid.jsonld",
-    "redirect_uris": ["https://jodhfbnfnogohfdkccjlfkfapdhnmdnf.chromiumapp.org/index.html"],
+    "redirect_uris": ["https://jodhfbnfnogohfdkccjlfkfapdhnmdnf.chromiumapp.org/index.html","http://localhost:8000"],
     "client_name": "Podmark",
     "client_uri": "https://podmark.michielvdb.be/logo.png",
     "logo_uri": "https://podmark.michielvdb.be/logo.png",
